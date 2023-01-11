@@ -49,8 +49,30 @@ nav a:active{
 	color: black;
 }
 
+.head{
+	display:block;
+	margin: 1vh auto;
+	padding: 2vh 0.5vw;
+	width: 50%;
+	border: none;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+.contact{
+	display:block;
+	margin: 1vh auto;
+	padding: 2vh 0.5vw;
+	width: 30%;
+	border: solid black;
+	background-color: white;
+	color: black;
+	text-align: center;
+}
+
 .contactform {
-	
+	width: 70%;
 }
 
 footer{
