@@ -60,8 +60,13 @@ nav a:active{
 	text-align: center;
 }
 
+.carousel{
+	width: 50%;
+	margin: auto;
+}
+
 .button1, .button2, .button3, .button4, .button5{
-	display:block;
+	display: block;
 	margin: 1vh auto;
 	padding: 2vh 0.5vw;
 	width: 25%;
@@ -70,23 +75,19 @@ nav a:active{
 	color: white;
 }
 
+/*hover effect on buttons*/
 .links button:hover{
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0, 0.67);
 -moz-box-shadow:    0px 0px 30px 0px rgba(0,0,0, 0.67);
 box-shadow:         0px 0px 30px 0px rgba(0,0,0, 0.67);
 }
 .links button:last-of-type:hover{
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0, 0.67);
 -moz-box-shadow:    0px 0px 30px 0px rgba(0,0,0, 0.67);
 box-shadow:         0px 0px 30px 0px rgba(0,0,0, 0.67);
 }
 
+/*for js utility*/
 #content1, #content2, #content3{
 	display: none;
 	text-align: center;
@@ -96,18 +97,13 @@ box-shadow:         0px 0px 30px 0px rgba(0,0,0, 0.67);
 	text-align: center;
 }
 
-img:hover{
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+/*image link hover effect*/
+a img:hover{
  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0, 0.67);
 -moz-box-shadow:    0px 0px 30px 0px rgba(0,0,0, 0.67);
 box-shadow:         0px 0px 30px 0px rgba(0,0,0, 0.67);
 }
-img:last-of-type:hover{
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+a img:last-of-type:hover{
  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0, 0.67);
 -moz-box-shadow:    0px 0px 30px 0px rgba(0,0,0, 0.67);
 box-shadow:         0px 0px 30px 0px rgba(0,0,0, 0.67);
