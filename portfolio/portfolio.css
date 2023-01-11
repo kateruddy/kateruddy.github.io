@@ -69,6 +69,10 @@ nav a:active{
 	text-align: center;
 }
 
+.disclaimer{
+	text-align: center;
+}
+
 footer{
 	padding-top: 20vh;
 	font-size: calc( 5px + .5vw);
