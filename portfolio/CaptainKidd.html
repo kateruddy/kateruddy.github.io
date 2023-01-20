@@ -35,18 +35,78 @@
 			
 			<!-- main content -->
 			<p class="head">Work for The Captain Kidd Restaurant, Summer 2022 in Woods Hole, MA</p>
-			<button class="button2" onclick="showProj1()">Instagram / Facebook</button>
-				<div id="content1">
+			
+			<!-- Images used to open the lightbox -->
+			<div class="row">
+			  <div class="column">
+			    <img src="ckidd/thumbs/ckidd1thumb.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+			  </div>
+			  <div class="column">
+			    <img src="ckidd/thumbs/ckidd2thumb.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+			  </div>
+			  <div class="column">
+			    <img src="ckidd/thumbs/ckidd3thumb.png" onclick="openModal();currentSlide(3)" class="hover-shadow">
+			  </div>
+			  <div class="column">
+			    <img src="ckidd/thumbs/ckidd4thumb.png" onclick="openModal();currentSlide(4)" class="hover-shadow">
+			  </div>
+			  <div class="column">
+			    <img src="ckidd/thumbs/ckidd5thumb.png" onclick="openModal();currentSlide(5)" class="hover-shadow">
+			  </div>
+			  <div class="column">
+			    <img src="ckidd/thumbs/ckidd6thumb.png" onclick="openModal();currentSlide(6)" class="hover-shadow">
+			  </div>
+			  <div class="column">
+			    <img src="ckidd/thumbs/ckidd7thumb.png" onclick="openModal();currentSlide(7)" class="hover-shadow">
+			  </div>
+			  <div class="column">
+			    <img src="ckidd/thumbs/ckidd8thumb.png" onclick="openModal();currentSlide(8)" class="hover-shadow">
+			  </div>
+			</div>
 
-				</div>
-			<button class="button3" onclick="showProj2()">TikTok</button>
-				<div id="content2">
-					
-				</div>
-			<button class="button4" onclick="showProj3()">Fliers</button>
-				<div id="content3">
-					
-				</div>
+			<!-- The Modal/Lightbox -->
+			<div id="myModal" class="modal">
+			  <span class="close cursor" onclick="closeModal()">&times;</span>
+			  <div class="modal-content">
+
+			    <div class="mySlides">
+			      <div class="numbertext">1 / 4</div>
+			      <img src="ckidd/ckidd1.png" style="width:100%">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">2 / 4</div>
+			      <img src="ckidd/ckidd1.png" style="width:100%">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">3 / 4</div>
+			      <img src="ckidd/ckidd1.png" style="width:100%">
+			    </div>
+
+			    <div class="mySlides">
+			      <div class="numbertext">4 / 4</div>
+			      <img src="ckidd/ckidd1.png" style="width:100%">
+			    </div>
+
+			    <!-- Thumbnail image controls -->
+			    <div class="column">
+			      <img class="demo" src="ckidd/ckidd1.png" onclick="currentSlide(1)" alt="Nature">
+			    </div>
+
+			    <div class="column">
+			      <img class="demo" src="ckidd/ckidd1.png" onclick="currentSlide(2)" alt="Snow">
+			    </div>
+
+			    <div class="column">
+			      <img class="demo" src="ckidd/ckidd1.png" onclick="currentSlide(3)" alt="Mountains">
+			    </div>
+
+			    <div class="column">
+			      <img class="demo" src="ckidd/ckidd1.png" onclick="currentSlide(4)" alt="Lights">
+			    </div>
+			  </div>
+			</div>
 		
 			<footer>
 				<p>Copyright &copy; Kate Ruddy, 2022.</p>
