@@ -49,6 +49,13 @@ nav a:active{
 	color: black;
 }
 
+.logo{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+/* 	width: 50%;*/
+}
+
 .head{
 	display:block;
 	margin: 1vh auto;
@@ -73,6 +80,24 @@ nav a:active{
 	border: none;
 	background-color: black;
 	color: white;
+}
+
+.description{
+	padding-top: 3vh;
+	padding-bottom: 1vh;
+	text-align: center;
+}
+
+.ads{
+	display-property value: flex;
+	margin-left: 17%;
+	margin-right: 17%;
+}
+
+#ad{
+	width: 300px;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
 }
 
 /*hover effect on buttons*/
