@@ -10,7 +10,6 @@ body{
 	font-family: 'Cormorant Garamond', serif;
 	margin-top: 2vh;
 	font-size: calc(20px + 2vw);
-	display: inline;
 	padding-left: 3vw;
 }
 
