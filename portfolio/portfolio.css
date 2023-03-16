@@ -51,6 +51,14 @@ nav a:active{
 	color: black;
 }
 
+.back {
+	text-decoration: none;
+	color: black;
+	display: block;
+	text-align: right;
+	padding-right: 10vw;
+}
+
 .logo{
 	display: block;
  	margin-left: auto;
@@ -101,6 +109,21 @@ nav a:active{
 	width: 300px;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
+}
+
+.gifs{
+	display: inline;
+	padding: 0 5vw;
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+	padding-bottom: 10vh;
+}
+
+#gifscontainer{
+	width: 85%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 /*image link hover effect*/

@@ -2,14 +2,16 @@ body{
 	font-family: 'Work Sans', sans-serif;
 }
 
-#sitename, #tagline{
-	font-family: 'Cormorant Garamond', serif;
-	margin-left: 3vw;
-}
+/*.logo {
+	display: inline;
+}*/
 
 #sitename{
+	font-family: 'Cormorant Garamond', serif;
 	margin-top: 2vh;
 	font-size: calc(20px + 2vw);
+	display: inline;
+	padding-left: 3vw;
 }
 
 #tagline{
@@ -60,9 +62,18 @@ nav a:active{
 	text-align: center;
 }
 
-.links{
-	padding-left: 30%;
-	padding-right: 30%;
+.links1 {
+	width: 49%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10vh;
+}
+
+.links2 {
+	width: 35%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5vh;
 }
 
 .button1, .button2, .button3, .button4, .button5{
@@ -70,11 +81,7 @@ nav a:active{
 	padding: 1vh 1vw;
 	border: none;
 	color: black;
-	width: 47%;
-}
-
-.links{
-	margin-top: 10vh;
+/*	width: 25%;*/
 }
 
 footer{

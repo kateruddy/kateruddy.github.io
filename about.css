@@ -52,13 +52,35 @@ nav a:active{
 #pagetitle{
 	text-align:center;
 	font-size: calc(20px + 1vw);
+	padding: 0 1vw;
+}
+
+#subtitle{
+	text-align:center;
+	font-size: calc(10px + 1vw);
 	padding: 1vh 1vw;
 }
 
-.me{
+#photome{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.container{
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.img {
+	-webkit-filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
+/*	margin-right: 5vw;*/
+	/*position: absolute;
+  	top: 50%;
+  	transform: translate(-50%, -50%);*/
 }
 
 #resume{
@@ -69,19 +91,63 @@ nav a:active{
 	padding: 1vh 1vw;
 }
 
+.clear{
+	clear: both;
+	padding-top: 10vh;
+}
+
 #education{
 	padding-left: 2vw;
 	padding-right: 2vw;
+	width: 65%;
+	float: left;
+	text-align: right;
+}
+
+#education #toptext {
+	padding-top: 15%;;
+	box-sixing: border-box;
+}
+
+#about1 {
+	width: 25%;
+	float: right;
 }
 
 #work{
 	padding-left: 2vw;
 	padding-right: 2vw;
+	width: 65%;
+	float: right;
+	text-align: left;
+}
+
+#work #toptext {
+	padding-top: 15%;;
+	box-sixing: border-box;
+}
+
+#about2 {
+	width: 25%;
+	float: left;
 }
 
 #me{
 	padding-left: 2vw;
 	padding-right: 2vw;
+	width: 65%;
+	float: left;
+	text-align: right;
+}
+
+#me #toptext {
+	padding-top: 15%;;
+	box-sixing: border-box;
+}
+
+#about3 {
+	width: 25%;
+	float: right;
 }
 
 #glinda{
@@ -92,4 +158,5 @@ footer{
 	padding-top: 20vh;
 	font-size: calc( 5px + .5vw);
 	text-align: center;
+	clear: both;
 }
