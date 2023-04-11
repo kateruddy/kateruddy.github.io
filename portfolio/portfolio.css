@@ -1,25 +1,28 @@
 body{
 	font-family: 'Work Sans', sans-serif;
-	font-size: calc(3px + 1vw);
+	background-color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
 }
 
-#sitename, #tagline{
-	font-family: 'Cormorant Garamond', serif;
-	margin-left: 3vw;
-}
+/*.logo {
+	display: inline;
+}*/
 
 #sitename{
-	margin-top: 2vh;
+	font-family: 'Yeseva One', cursive;
+	padding-top: 10vh;
 	font-size: calc(20px + 2vw);
+	padding-left: 3vw;
+	text-align: center;
 }
 
-#tagline{
-	font-size: calc(5px + 2vw);
-}
-
-/*navigation styling*/
-nav ul{
+.nav1 ul{
 	list-style-type: none;
+	display: inline;
+}
+
+.nav2 ul{
+	list-style-type: none;
+	display: inline;
 }
 
 nav li{
@@ -27,28 +30,86 @@ nav li{
 	padding: 1vh 1vw;
 }
 
-.current{
-	text-decoration: underline;
-}
-
-nav a:link{
+.menu a:link{
 	text-decoration: none;
 	color: black;
 }
 
-nav a:visited{
+.menu a:visited{
 	text-decoration: none;
 	color: black;
 }
 
-nav a:hover{
+.menu a:hover{
 	text-decoration: none;
 	color: black;
 }
 
-nav a:active{
+.menu a:active{
 	text-decoration: none;
 	color: black;
+}
+
+/*Hamburger Menu*/
+/*.menu-icon {
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+}*/
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu li {
+  margin: 0 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/*@media only screen and (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }*/
+/*  .menu {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    padding: 10px;
+  }*/
+  .menu li {
+    margin: 10px 0;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: #333;
+  color: #fff;
+}
+
+.head{
+	display:block;
+	margin: 1vh auto;
+	padding: 2vh 0.5vw;
+	width: 50%;
+	border: none;
+	background-color: black;
+	color: white;
+	text-align: center;
 }
 
 .back {

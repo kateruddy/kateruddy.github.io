@@ -3,13 +3,14 @@ body{
 }
 
 #sitename, #tagline, #typeit{
-	font-family: 'Cormorant Garamond', serif;
+	font-family: 'Yeseva One', cursive;
 }
 
 #sitename{
 	margin-top: 20vh;
 	font-size: calc(40px + 2vw);
 	text-align: center;
+	display: inline;
 }
 
 #tagline{
