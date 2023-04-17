@@ -163,7 +163,7 @@ nav li{
 	margin-right: auto;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
-	padding-bottom: 10vh;
+	padding-top: 5vh;
 }
 
 #ad{
@@ -185,6 +185,32 @@ nav li{
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/*#phones{
+	width: 85%;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.phones{
+	width: 35%;
+	padding-left: 5vw;
+	padding-right: 5vh;
+}*/
+
+#phones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.phones {
+  max-width: 23%;
+  height: auto;
+  padding-top: 5vh;
 }
 
 /*image link hover effect*/
