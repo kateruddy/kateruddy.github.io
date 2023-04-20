@@ -1,13 +1,13 @@
 body{
 	font-family: 'Work Sans', sans-serif;
 	background-color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
+	font-size: calc(12px + .5vw);
 }
 
 #sitename{
 	font-family: 'Yeseva One', cursive;
 	padding-top: 10vh;
 	font-size: calc(20px + 2vw);
-	padding-left: 3vw;
 	text-align: center;
 }
 
@@ -23,7 +23,7 @@ body{
 
 nav li{
 	display: inline;
-	padding: 1vh 1vw;
+	padding: 1vh 2vw  0 0;
 }
 
 .menu a:link{
@@ -119,6 +119,26 @@ nav li{
 	text-align: center;
 }
 
+a:link{
+	text-decoration: none;
+	color: black;
+}
+
+a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+
+a:active{
+	text-decoration: none;
+	color: black;
+}
+
 .contact{
 	display:block;
 	margin: 1vh auto;
@@ -135,7 +155,7 @@ nav li{
 }
 
 footer{
-	padding-top: 20vh;
+	padding-top: 10vh;
 	font-size: calc( 5px + .5vw);
 	text-align: center;
 }

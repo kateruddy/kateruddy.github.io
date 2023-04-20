@@ -1,13 +1,13 @@
 body{
 	font-family: 'Work Sans', sans-serif;
 	background-color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
+	font-size: calc(12px + .5vw);
 }
 
 #sitename{
 	font-family: 'Yeseva One', cursive;
 	padding-top: 10vh;
 	font-size: calc(20px + 2vw);
-	padding-left: 3vw;
 	text-align: center;
 }
 
@@ -23,7 +23,7 @@ body{
 
 nav li{
 	display: inline;
-	padding: 1vh 1vw;
+	padding: 1vh 2vw  0 0;
 }
 
 .menu a:link{
@@ -46,15 +46,6 @@ nav li{
 	color: black;
 }
 
-/*Hamburger Menu*/
-/*.menu-icon {
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}*/
-
 .menu {
   display: flex;
   justify-content: center;
@@ -69,20 +60,6 @@ nav li{
   text-decoration: none;
   font-size: 16px;
 }
-
-/*@media only screen and (max-width: 768px) {
-  .menu-icon {
-    display: block;
-  }*/
-/*  .menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    padding: 10px;
-  }*/
   .menu li {
     margin: 10px 0;
   }
@@ -111,111 +88,32 @@ nav li{
 #pagetitle{
 	text-align:center;
 	font-size: calc(20px + 1vw);
-	padding: 0 1vw;
 }
 
 #subtitle{
 	text-align:center;
 	font-size: calc(10px + 1vw);
-	padding: 1vh 1vw;
 }
 
-#photome{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+#about1, #about2, #about3{
+	padding-top: 7vh;
 }
 
-.container{
-	padding-top: 10vh;
-	padding-bottom: 10vh;
-	padding-left: 10vw;
-	padding-right: 10vw;
-}
-
-.img {
+img {
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
-/*	margin-right: 5vw;*/
-	/*position: absolute;
-  	top: 50%;
-  	transform: translate(-50%, -50%);*/
+	display: block;
+	max-width: 75%%;
+	margin: 0 auto;
 }
 
-#resume{
-	display:block;
+#education, #work, #me{
 	text-align: center;
-	font-family: 'Cormorant Garamond', serif;
-	font-size: calc(15px + .75vw);
-	padding: 1vh 1vw;
-}
-
-.clear{
-	clear: both;
-	padding-top: 10vh;
-}
-
-#education{
-	padding-left: 2vw;
-	padding-right: 2vw;
-	width: 65%;
-	float: left;
-	text-align: right;
-}
-
-#education #toptext {
-	padding-top: 15%;;
-	box-sixing: border-box;
-}
-
-#about1 {
-	width: 25%;
-	float: right;
-}
-
-#work{
-	padding-left: 2vw;
-	padding-right: 2vw;
-	width: 65%;
-	float: right;
-	text-align: left;
-}
-
-#work #toptext {
-	padding-top: 15%;;
-	box-sixing: border-box;
-}
-
-#about2 {
-	width: 25%;
-	float: left;
-}
-
-#me{
-	padding-left: 2vw;
-	padding-right: 2vw;
-	width: 65%;
-	float: left;
-	text-align: right;
-}
-
-#me #toptext {
-	padding-top: 15%;;
-	box-sixing: border-box;
-}
-
-#about3 {
-	width: 25%;
-	float: right;
-}
-
-#glinda{
-	color:pink;
+	padding-top: 5vh;
 }
 
 footer{
-	padding-top: 20vh;
+	padding-top: 10vh;
 	font-size: calc( 5px + .5vw);
 	text-align: center;
-	clear: both;
 }
