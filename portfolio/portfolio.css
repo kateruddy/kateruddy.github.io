@@ -1,34 +1,24 @@
 body{
 	font-family: 'Work Sans', sans-serif;
 	background-color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
-	font-size: calc(12px + .5vw);
+	font-size: calc(6px + 1vw);
 }
 
 /*.logo {
 	display: inline;
 }*/
 
+
 #sitename{
 	font-family: 'Yeseva One', cursive;
-	padding-top: 10vh;
+	padding-top: 5vh;
 	font-size: calc(20px + 2vw);
-	padding-left: 3vw;
 	text-align: center;
-}
-
-.nav1 ul{
-	list-style-type: none;
-	display: inline;
-}
-
-.nav2 ul{
-	list-style-type: none;
-	display: inline;
 }
 
 nav li{
 	display: inline;
-	padding: 1vh 1vw;
+	padding: 1vh 2vw  0 0;
 }
 
 .menu a:link{
@@ -51,16 +41,7 @@ nav li{
 	color: black;
 }
 
-/*Hamburger Menu*/
-/*.menu-icon {
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}*/
-
-.menu {
+nav {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,25 +53,11 @@ nav li{
 
 .menu a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: calc(6px + 1vw);
 }
 
-/*@media only screen and (max-width: 768px) {
-  .menu-icon {
-    display: block;
-  }*/
-/*  .menu {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    position: absolute;
-    top: 50px;
-    left: 0;
-    padding: 10px;
-  }*/
-  .menu li {
-    margin: 10px 0;
-  }
+.menu li {
+  margin: 10px 0;
 }
 
 .header {
@@ -105,7 +72,7 @@ nav li{
 .head{
 	display:block;
 	margin: 1vh auto;
-	padding: 2vh 0.5vw;
+	padding: .5vh 0.5vw;
 	width: 50%;
 	border: none;
 	background-color: black;
@@ -153,7 +120,7 @@ nav li{
 }
 
 #credit{
-	font-size: calc(10px + .5vw);
+	font-size: calc(5px + 1vw);
 }
 
 /*image styling and placing*/
@@ -169,14 +136,15 @@ nav li{
 
 .caption{
 	text-align: center;
-	font-size: calc(8px + .5vw);
+	font-size: calc(4px + 1vw);
 	padding-top: 7vh;
 }
 
 .ads {
 	max-width: 90%;
-	max-height: 100vh;
+	max-height: 98vh;
 	display: flex;
+	flex-direction: column;
 	margin-left: auto;
 	margin-right: auto;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
@@ -189,7 +157,6 @@ nav li{
 }
 
 #ad{
-	width: 300px;
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
 }
@@ -201,46 +168,24 @@ nav li{
 	margin-right: auto;
 }
 
-/*.gifs{
-	display: inline;
-	padding: 0 5vw;
-	-webkit-filter: drop-shadow(5px 5px 5px #222);
-	filter: drop-shadow(5px 5px 5px #222);
-	padding-bottom: 10vh;
-}
-
-#gifscontainer{
-	width: 85%;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-}
-*/
-/*#phones{
-	width: 85%;
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.phones{
-	width: 35%;
-	padding-left: 5vw;
-	padding-right: 5vh;
-}*/
-
-#phones {
+.phonescontainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .phones {
-  max-width: 90%;
+  display: flex;
+  max-width: 40%;
   max-height: 100vh;
   height: auto;
-  padding-top: 5vh;
+  padding-left: 2vw;
+/*  padding-top: 5vh;*/
+}
+
+#rightphone{
+	padding-left: 2vw;
 }
 
 /*image link hover effect*/
@@ -268,6 +213,6 @@ box-shadow:         0px 0px 30px 0px rgba(0,0,0, 0.67);
 
 footer{
 	padding-top: 10vh;
-	font-size: calc( 5px + .5vw);
+	font-size: calc( 2px + 1vw);
 	text-align: center;
 }

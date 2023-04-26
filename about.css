@@ -1,7 +1,7 @@
 body{
 	font-family: 'Work Sans', sans-serif;
 	background-color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
-	font-size: calc(12px + .5vw);
+	font-size: calc(6px + 1vw);
 }
 
 #sitename{
@@ -58,7 +58,7 @@ nav li{
 
 .menu a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: calc(6px + 1vw);
 }
   .menu li {
     margin: 10px 0;
@@ -95,7 +95,7 @@ nav li{
 	font-size: calc(10px + 1vw);
 }
 
-#about1, #about2, #about3{
+#about1, #about2, #about3, #about4{
 	padding-top: 7vh;
 }
 
@@ -103,7 +103,8 @@ img {
 	-webkit-filter: drop-shadow(5px 5px 5px #222);
 	filter: drop-shadow(5px 5px 5px #222);
 	display: block;
-	max-width: 75%%;
+	max-width: 75%;
+	max-height: 60vh;
 	margin: 0 auto;
 }
 
@@ -114,6 +115,6 @@ img {
 
 footer{
 	padding-top: 10vh;
-	font-size: calc( 5px + .5vw);
+	font-size: calc( 2px + 1vw);
 	text-align: center;
 }

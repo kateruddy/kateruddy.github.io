@@ -1,7 +1,7 @@
 body{
 	font-family: 'Work Sans', sans-serif;
 	background-color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
-	font-size: calc(12px + .5vw);
+	font-size: calc(6px + 1vw);
 }
 
 #sitename{
@@ -46,15 +46,6 @@ nav li{
 	color: black;
 }
 
-/*Hamburger Menu*/
-/*.menu-icon {
-  font-size: 28px;
-  cursor: pointer;
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}*/
-
 .menu {
   display: flex;
   justify-content: center;
@@ -67,7 +58,7 @@ nav li{
 
 .menu a {
   text-decoration: none;
-  font-size: 16px;
+  font-size: calc(6px + 1vw);
 }
 
 /*@media only screen and (max-width: 768px) {
@@ -156,6 +147,6 @@ a:active{
 
 footer{
 	padding-top: 10vh;
-	font-size: calc( 5px + .5vw);
+	font-size: calc( 2px + 1vw);
 	text-align: center;
 }
