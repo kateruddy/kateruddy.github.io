@@ -2,12 +2,19 @@ body{
 	font-family: 'Work Sans', sans-serif;
 	background-color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
 	font-size: calc(6px + 1vw);
+	color: #4C4E52;
 }
 
 #sitename{
 	font-family: 'Yeseva One', cursive;
-	padding-top: 10vh;
+	padding-top: 5vh;
 	font-size: calc(20px + 2vw);
+	text-align: center;
+}
+
+#subhead{
+	font-family: 'Yeseva One', cursive;
+	font-size: calc(2px + 2vw);
 	text-align: center;
 }
 
@@ -28,22 +35,22 @@ nav li{
 
 .menu a:link{
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 }
 
 .menu a:visited{
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 }
 
 .menu a:hover{
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 }
 
 .menu a:active{
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 }
 
 /*Hamburger Menu*/
@@ -111,7 +118,7 @@ nav li{
 #pagetitle{
 	text-align:center;
 	font-size: calc(20px + 1vw);
-	padding: 1vh 1vw;
+	padding-top: 1vh;
 }
 
 #resume{
@@ -119,17 +126,18 @@ nav li{
 	text-align: center;
 /*	font-family: 'Cormorant Garamond', serif;*/
 	font-size: calc(15px + .75vw);
-	padding-top: 5vh;
+	padding-top: 1vh;
 }
 
 #resume button{
-	background-color: black;
+	background-color: #4C4E52;
 	color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
 	border: none;	
 }
 
 .resume-content{
 	text-align: center;
+	padding: 1vh 1vw;
 }
 
 footer{

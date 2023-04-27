@@ -2,6 +2,7 @@ body{
 	font-family: 'Work Sans', sans-serif;
 	background-color: hsl(40.00000000000019,8.108108108108153%,92.74509803921569%);
 	font-size: calc(6px + 1vw);
+	color: #4C4E52;
 }
 
 /*.logo {
@@ -16,6 +17,12 @@ body{
 	text-align: center;
 }
 
+#subhead{
+	font-family: 'Yeseva One', cursive;
+	font-size: calc(2px + 2vw);
+	text-align: center;
+}
+
 nav li{
 	display: inline;
 	padding: 1vh 2vw  0 0;
@@ -23,22 +30,22 @@ nav li{
 
 .menu a:link{
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 }
 
 .menu a:visited{
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 }
 
 .menu a:hover{
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 }
 
 .menu a:active{
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 }
 
 nav {
@@ -82,7 +89,7 @@ nav {
 
 .back {
 	text-decoration: none;
-	color: black;
+	color: #4C4E52;
 	display: block;
 	text-align: right;
 	padding-right: 10vw;
@@ -133,6 +140,17 @@ nav {
 	filter: drop-shadow(5px 5px 5px #222);
 	padding-bottom: 10vh;
 }*/
+
+.magazine{
+	min-width: 60vw;
+	max-width: 90%;
+	min-height: 97vh;
+	max-height: 98vh;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 .caption{
 	text-align: center;
@@ -188,6 +206,21 @@ nav {
 	padding-left: 2vw;
 }
 
+.productscontainer{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.products{
+	display: flex;
+  max-width: 40%;
+  max-height: 100vh;
+  height: auto;
+  padding-left: 2vw;
+}
+
 /*image link hover effect*/
 a img:hover{
  -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0, 0.67);
@@ -208,7 +241,7 @@ box-shadow:         0px 0px 30px 0px rgba(0,0,0, 0.67);
 }
 
 .morelinks a {
-	color: black;
+	color: #4C4E52;
 }
 
 footer{
